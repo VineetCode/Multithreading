@@ -1,0 +1,25 @@
+git init
+git status
+git add .(all file)
+git add "src"(particular file)
+git status
+git commit  -m "Added Git-demo project to local Repo"
+git status
+git log
+git log --graph --decorate --all --pretty=oneline
+git log --graph --decorate --all --pretty=short
+git log --graph --decorate --all --pretty=full
+git log --graph --decorate --all --pretty=fuller
+git remote add origin https://github.com/vinitda/git=demo.git
+git push -u origin master
+====================================
+Set Up Git:
+git config --global user.name "Your Name"
+git config --global user.email "youremail@domain.com"
+
+other commands
+git clone (url)
+git add (file names)
+git commit -m "(committed message)
+git push -u origin master
+git remote add origin master (url)
